@@ -1,0 +1,62 @@
+{
+  "name": "global-hunger-index",
+  "title": "Global Hunger Index",
+  "format": "csv",
+  "datapackage_version": "1.0.0",
+  "last_modified": "2017-01-30",
+  "licenses": [
+    {
+      "type": "ODC-PDDL-1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "International Food Policy Research Institute",
+      "web": "http://ghi.ifpri.org/trends/"
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://raw.github.com/schoolofdata-ch/global-hunger-index/master/data/global-hunger-index.csv",
+      "path": "data/global-hunger-index.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "iso2",
+            "description": "two letters Country code",
+            "type": "string"
+          },
+          {
+            "name": "score1992",
+            "description": "country score on the global hunger index for 1992",
+            "type": "numeric"
+          },
+          {
+
+            "name": "score2016",
+            "description": "country score on the global hunger index for 1992",
+            "type": "numeric"
+          
+          }
+        ]
+      }
+    }
+          {
+            "name": "Limitation and exception",
+            "description": "Limitation and exception",
+            "type": "string"
+          }
+        ]
+      }
+    }
+    
+  ],
+    }
+
+  ],
+  "maintainers":[{
+    "name": "School of Data",
+    "web": "https://www.schoolofdata.ch/"
+  }]
+}
