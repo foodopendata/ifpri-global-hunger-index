@@ -3,7 +3,7 @@
   "title": "Global Hunger Index",
   "format": "csv",
   "datapackage_version": "1.0.0",
-  "last_modified": "2017-01-30",
+  "last_modified": "2017-02-10",
   "licenses": [
     {
       "type": "ODC-PDDL-1.0",
@@ -12,51 +12,51 @@
   ],
   "sources": [
     {
-      "name": "International Food Policy Research Institute",
-      "web": "http://ghi.ifpri.org/trends/"
+      "name": "Harvard Dataverse",
+      "web": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LU8KRU"
     }
   ],
   "resources": [
     {
-      "url": "https://raw.github.com/schoolofdata-ch/global-hunger-index/master/data/global-hunger-index.csv",
       "path": "data/global-hunger-index.csv",
       "schema": {
         "fields": [
           {
             "name": "iso2",
-            "description": "two letters Country code",
+            "description": "Country code",
             "type": "string"
           },
           {
-            "name": "score1992",
-            "description": "country score on the global hunger index for 1992",
+            "name": "iso3",
+            "description": "Country code (three letter)",
+            "type": "string"
+          },
+          {
+            "name": "country_name_en",
+            "description": "Country name",
+            "type": "string"
+          },
+          {
+            "name": "country_name_de",
+            "description": "Country name (German)",
+            "type": "string"
+          },
+          {
+            "name": "score1992...2008",
+            "description": "Country score for 1992, 2000, 2008",
             "type": "numeric"
           },
           {
-
             "name": "score2016",
-            "description": "country score on the global hunger index for 1992",
+            "description": "Country score on the global hunger index for 2016",
             "type": "numeric"
-          
           }
         ]
       }
     }
-          {
-            "name": "Limitation and exception",
-            "description": "Limitation and exception",
-            "type": "string"
-          }
-        ]
-      }
-    }
-    
-  ],
-    }
-
   ],
   "maintainers":[{
-    "name": "School of Data",
+    "name": "School of Data Switzerland",
     "web": "https://www.schoolofdata.ch/"
   }]
 }
